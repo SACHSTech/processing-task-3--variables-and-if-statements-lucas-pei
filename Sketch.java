@@ -74,9 +74,9 @@ public class Sketch extends PApplet {
         var currentTime = nf((hours), 2) + ":" + nf(minutes, 2) + ":" + nf(seconds, 2);
    
         fill(255);
-        stroke(0, 0, 0);
+        noStroke();
         textSize(17);
-        
+
         text(currentTime, 320, 385);
   }
 }
